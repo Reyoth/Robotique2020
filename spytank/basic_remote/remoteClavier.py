@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import spytank
+spytank.init()
 print("taper z pour avancer")
 print("taper s pour reculer")
 lettre = input(">> ")
