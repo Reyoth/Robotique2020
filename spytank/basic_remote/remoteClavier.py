@@ -9,3 +9,5 @@ if lettre == "z":
     spytank.avance(100)
 elif lettre == "s":
     spytank.recule(100)
+elif lettre == "x":
+    spytank.stop()
