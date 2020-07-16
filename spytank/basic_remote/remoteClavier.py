@@ -9,7 +9,7 @@ spytank.init()
 texte1= "Utiliser les touches ZQSD pour le manipuler"
 texte2 = "Taper X pour arreter le robot"
 
-tts = gTTS(texte1,lang="fr")
+tts = gTTS("texte1",lang="fr")
 tts.save("text1.mp3")
 tts = gTTS(texte2,lang="fr")
 tts.save("text2.mp3")
