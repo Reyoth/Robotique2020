@@ -10,6 +10,8 @@ socket.bind((ADDRESS,PORT))
 
 stop = False
 threadDistance= detecteur.distance(stop)
+threadDistance.daemon = True
+threadDistance.start()
 
 continuer = True
 while continuer:
