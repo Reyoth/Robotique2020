@@ -1,11 +1,15 @@
 import network
 import remoteEvent
+import detecteur
 
 ADDRESS = "10.0.0.109"
 PORT = 1111
 
 socket = network.newServerSocket()
 socket.bind((ADDRESS,PORT))
+
+stop = False
+threadDistance= detecteur.distance(stop)
 
 continuer = True
 while continuer:
