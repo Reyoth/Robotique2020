@@ -11,7 +11,7 @@ class distance(Thread):
     def run(self):
         while True:
             dist = spytank.litDistance()
-            if dist < 30:
+            if dist[0] < 30:
                 spytank.stop()
             time.sleep(0.5)
 
